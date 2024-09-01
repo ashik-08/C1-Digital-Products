@@ -39,14 +39,14 @@
   background-size: cover;
 }
 
-.title {
+.banner-heading {
   font-size: 60px;
   font-weight: bold;
 }
 
 .paragraph {
   font-size: 18px;
-  margin: 24px 0px;
+  margin: 20px 0px;
 }
 
 .btn {
@@ -61,4 +61,24 @@
 
 .btn:hover {
   background-color: orange;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 32px 0px 52px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.about-heading {
+  font-size: 36px;
+  font-weight: bold;
 }
