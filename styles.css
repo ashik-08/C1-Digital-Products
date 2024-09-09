@@ -22,9 +22,12 @@
   font-size: 18px;
 }
 
+.list-item {
+  cursor: pointer;
+}
+
 .list-item:hover {
   color: orange;
-  cursor: pointer;
 }
 
 /* banner related styles */
@@ -166,13 +169,32 @@ footer {
 }
 
 .logo-details {
-  line-height: 1.5rem;
+  line-height: 1.3rem;
+}
+
+.icons {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.fa-brands {
+  font-size: 20px;
+}
+
+.fa-brands:hover {
+  color: orange;
+  cursor: pointer;
 }
 
 .footer-heading {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 24px;
+}
+
+.fa-solid {
+  margin-right: 10px;
 }
 
 .useful-link p:hover,
